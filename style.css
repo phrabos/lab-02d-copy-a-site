@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+    padding: 15px;
+}
+.header {
+    color: white;
+    background-color: rgb(39, 39, 39);
+    padding-bottom: 15px;
+    
+
+}
+.content {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 4fr 1.25fr;
+    padding: 20px;
+}
+
+
+.title1 {
+    color: dimgray;
+    font-style: oblique;
+    border-bottom: 1px solid black;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    
+    
+}
+.article1 {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+
+}
+
+.title2 {
+    color: dimgray;
+    font-style: oblique;
+    border-bottom: 1px solid black;
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+    
+    
+}
+.article2 {
+    grid-column: 1 / 1;
+    grid-row: 4 / 4;
+
+}
+.title3 {
+    color: dimgray;
+    font-style: oblique;
+    border-bottom: 1px solid black;
+    grid-column: 1 / 1;
+    grid-row: 5 / 5;
+    
+    
+}
+.article3 {
+    grid-column: 1 / 1;
+    grid-row: 6 / 6;
+
+}
+
+.nav-bar-right {
+    border: 1px solid black;
+    text-align: left;
+    grid-column: 2 / 2;
+    grid-row: 1 / 6;
+    height: 100%;
+    border-radius: 5%;
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: slategray;
+    background-color: rgb(236, 236, 236);
+}
+
+.button {
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+ul {
+    font-size: 13px;
+    font-weight: 100;
+    text-align: left;
+    padding: 10px;
+}
+li{
+    color:
+}
+
+.wrapper {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 1%;
+    
+}
+
+.image {
+    width: 100%;
+    padding-bottom: 15px;
+}
+.dropbtn {
+    background-color: white;
+    padding: 2px;
+    width: 150px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
