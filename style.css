@@ -12,10 +12,13 @@ body, html {
 
 body{
     background-color: rgb(39, 39, 39);
-    padding: 15px;
+    padding-top: 25px;
+    padding-right: 75px;
+    padding-left: 75px;
 }
 .header {
     color: white;
+    font-size: 14px;
     background-color: rgb(39, 39, 39);
     padding-bottom: 15px;
     
